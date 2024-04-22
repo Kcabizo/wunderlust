@@ -66,8 +66,8 @@ table {
     --blue: #499BD2;
     --dkGray: #222222;
     --ltGray: #EAEAEA;
-    --white: #FFF;
-    --black: #000;
+    --white: #FFFFFF;
+    --black: #000000;
 
     /* --- FONTS --- */
     --molle-font: "Molle", cursive;
@@ -132,7 +132,7 @@ p {
     height: auto;
   }
 
-/* ----- HEADER ----- */
+/* ----- HEADER STYLE----- */
 header {
     background-image: linear-gradient(to bottom, var(--teal) 0%,  var(--white) 100%);
     display: grid;
@@ -149,7 +149,7 @@ header p {
     margin-left: -2em;
 }
 
-/* ----- NAV ----- */
+/* ----- NAV STYLE----- */
     nav {
         display: block;
         margin: 0;
@@ -207,7 +207,7 @@ header p {
         display: none;
     }
 
- /* ----- INTRO ----- */
+ /* ----- INTRO SECTION STYLE----- */
     #intro h2, #intro p {
         padding: 10px 28px;
     }
@@ -222,7 +222,8 @@ header p {
         width: 100%;
         height: 100%;
     }
-/* ----- TESTIMONIALS ----- */
+
+/* ----- TESTIMONIALS SECTION STYLE----- */
     #testimonials { 
         padding: 2em;
     }
@@ -245,7 +246,7 @@ header p {
         max-width: 14em;
     }
 
-/* ----- ABOUT ----- */
+/* ----- ABOUT SECTION STYLE----- */
     #about {
         background-color: var(--blue);
         padding: 2em;
@@ -279,7 +280,7 @@ header p {
         font-size: 1.25em;
 }
 
-/* ----- CONTACT ----- */
+/* ----- CONTACT SECTION STYLE----- */
     #contact {
         padding: 2.5em;
     }
@@ -446,7 +447,7 @@ select::-ms-expand {
         margin: 0 0.5em;
       }
 
-/* ----- PLAN ----- */
+/* ----- PLAN SECTION STYLE----- */
     #plan {
         background-color: var(--yellow);
         padding: 2em;
@@ -487,7 +488,7 @@ select::-ms-expand {
         margin-bottom: 1em;
 }
 
-/* ----- FOOTER ----- */
+/* ----- FOOTER STYLE----- */
 
 footer {
     background-color: var(--ltGray);
@@ -502,16 +503,7 @@ footer p, footer a {
     padding: 1em;
 }
 
-/* ----- CLASSES ----- */
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    clip-path: inset(50%);
-}
+
 
 /* ----- MEDIA QUERIES ----- */
 
@@ -701,8 +693,8 @@ footer p, footer a {
             footer {
                 clear: right;
                 display: flex;
-                padding-left: 3em;
-                padding-right: 3em;
+                padding-left: 1em;
+                padding-right: 1em;
             }
     }
 
@@ -862,6 +854,8 @@ footer p, footer a {
             grid-column: 5;
         }
     }
+
+
 /* EXTRA LARGE SCREEN RADIO BUTTONS */
     @media screen and (min-width: 1520px){
         input[type="radio"] {
